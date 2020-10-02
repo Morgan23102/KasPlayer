@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>   
+<head>
+        <link rel="stylesheet" type="text/CSS" href="kas_player.css">
+        <script type="text/javascript" src="kas_player.js"></script>
+        <title>KasPlayer</title>
+        <link rel="shortcut icon" href="images/play1.jpg" type="image/jpg">
+        <script type = "text/javascript">
+            
+                function adc () {
+                    //document.getElementById("kartinka").requestFullScreen();
+                }
+            
+         </script>
+        
+</head>
+<body>
+    <header></header>
+    
+    <h1>Добро пожаловать в KasPlayer</h1>
+    <p>Создаю и кастомизирую видеоплеер:)</p>
+    
+    <div id="video-player">
+
+        <div id="video-tree">
+            <video poster="images/poster.jpg" width="800" height="450">
+                <source src="Airport.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+        <div id="progress-tree">
+            <div id="progress"></div>
+
+        </div>
+
+        <div id="button-tree">
+            <img id="play-button" src="images/play1.jpg" width="100" height="100">
+
+            <div id="time-factor">
+                0:00 - 0:00
+            </div>
+
+            <img id="backward-button" src="images/back.png" width="100" height="100">
+
+                <div id="soundbar-tree">
+                    <div id="soundbar" width="100" height="100"></div> 
+                </div>
+
+            <img id="forward-button" src="images/next.png" width="100" height="100">
+
+        </div>    
+        
+    </div>
+    <img id = "kartinka" src="images/frame1.png" alt="kartinka" width="1358" height="728">
+    
+    
+    
+
+    
+  
+</body>
+
+</html>
